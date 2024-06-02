@@ -3,7 +3,7 @@ body{
 }
 
 .portadaAtlas{
-    background-image: url(/assets/banner-bk.jpg);
+    background-image: url(../assets/banner-bk.jpg);
     height: 600px;
     flex-direction: column;
 }
