@@ -1,0 +1,1712 @@
+body{
+    margin: 0px;
+}
+
+.portadaAtlas{
+    background-image: url(/assets/banner-bk.jpg);
+    height: 600px;
+    flex-direction: column;
+}
+
+.contenedorHijo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   text-decoration: none;
+}
+.botonEarly {
+    margin-right: 130px;
+    margin-top: 60px;
+    color: white;
+}
+
+.botonEarly a:hover{
+    color: #00FFAD;
+
+}
+
+.botonEarly ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.botonEarly ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color:rgb(199, 198, 198);
+    
+}
+
+.logoAtlas{
+    height: 75px;
+    width: auto;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+    width: 700px;
+    margin-left:130px ;
+    color: rgb(199, 198, 198);
+}
+
+.titulo p{
+    font-size: 20px;
+}
+
+.botonGet{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: #192440;
+    background-color: #00FFAD;
+    transition: transform 0.3s ease;
+}
+
+.botonGet:hover{
+    transform: scale(1.05);
+}
+
+.contenedorSegundario{
+    align-items: center;
+    margin-top: 90px;
+    color: rgb(51, 51, 51);
+   
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(51, 51, 51);
+}
+
+.segundarioHijo{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%;
+}
+
+.tableroSegundarios{
+    width: 280px;
+    color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    text-align: center;
+}
+.tableroSegundarios nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tableroSegundarios nav ul li a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+.tableroSegundarios a:hover{
+    color: #00FFAD;
+}
+
+.tableroSegundarios li{
+    text-align: center;
+}
+
+.segundarioHermano{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-evenly;
+    background:linear-gradient(172deg,white 50%,#00ffad 50%);
+
+}
+.segundarioHermano h3{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.tableroPrimo{
+    width: 530px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+
+}
+
+.tableroPrimo p{
+   margin-left: 10px;
+}
+
+
+.tableroImg img{
+    height: 280px;
+    width: auto;
+}
+
+.botonLearn{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 15px;
+    color:white;
+    background-color: #192440;
+    transition: transform 0.3s ease;
+}
+.botonLearn:hover{
+    transform: scale(1.05);
+}
+
+.contenedorTerciario{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(51, 51, 51);
+    background-color: #00ffad;
+    margin-bottom: 120px;
+    height: 500px;
+}
+
+.tituloPrecio{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color: rgb(51, 51, 51);
+}
+
+.tableroImg2{
+    margin-top: 150px;
+}
+
+.tableroImg2 img{
+    height: 280px;
+    width: auto;
+    padding-left: 120px;
+}
+
+.tableroSafe{
+    margin-top: 105px;
+    width: 530px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 100px;
+}
+.tableroSafe h3{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.ContenedorPrecios{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+    margin-top: 50px;
+}
+
+.tableroPrecios{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 370px;
+    color: rgb(51, 51, 51);
+}
+
+.precios{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.precios h3{
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.precios p{
+    align-content: end;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.tableroPrecios2{
+    background-color: #1d294b;
+    text-align: center;
+    width: 370px;
+    height: 500px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+}
+
+.tableroPrecios3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 370px;
+    color: rgb(51, 51, 51);
+}
+
+.tituloStartup {
+    margin-top: 50px;
+    font-size: 23px;
+}
+
+.tituloPremium {
+    margin-top: 50px;
+    font-size: 23px;
+}
+
+.tituloProfessional{
+    margin-top: 50px;
+    font-size: 23px;
+}
+
+.botonGet1{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: #192440;
+    background-color: #00FFAD;
+    transition: transform 0.3s ease;
+
+}
+
+.botonGet1:hover{
+    transform: scale(1.05);
+}
+
+.botonPrecio{
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #192440;
+    border-style:groove;
+    height: 50px;
+    width: 130px;
+    border-radius: 28px;
+    font-size: 15px;
+    color:#192440;
+    transition: transform 0.3s ease;
+}
+
+.botonPrecio:hover{
+    transform: scale(1.05);
+}
+
+.bannerPublicidad{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(230, 228, 228);
+}
+.bannerPublicidad div img{
+    width: auto;
+    height: 60px;
+}
+.bannerPublicidad div{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.contenedorCuatro{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/assets/contact-bk.jpg);
+    
+}
+.contact{
+    width: 400px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+.contact h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.enviarDatos{
+    width: 600px;
+    color: #00FFAD;
+
+}
+
+
+.datosPadre{
+    display: flex;
+    justify-content: space-evenly;
+    color: #00FFAD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+}
+
+.datosPadre input{
+    background: transparent;
+    border-radius: 4px;
+    border:1px solid #00FFAD;
+    height: 30px;
+    width: 240px;
+    color: white;
+}
+
+.inputMessage p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:   35px ;
+}
+
+.inputMessage textarea{
+    background: transparent;
+    border-radius: 4px;
+    border:1px solid #00FFAD;
+    height: 80px;
+    width: 525px;
+    margin-left: 35px;
+    color: white;
+}
+
+.botonSubmit{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    height: 45px;
+    width: 530px;
+    border-radius: 27px;
+    font-size: 15px;
+    color: #192440;
+    background-color: #00FFAD;
+    transition: transform 0.3s ease;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.botonSubmit:hover{
+    transform: scale(1.05);
+    background-color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d294b;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.iconos{
+    display: flex;
+    margin-right: 110px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.iconos img{
+    height: 40px;
+    width: auto;
+    margin-left: 10px;
+    
+}
+
+.marcaFooter{
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 1279px) {
+    body{
+        width: 1279px;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    
+    .portadaAtlas{
+        background-image: url(/assets/banner-bk.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        flex-direction: column;
+    }
+    
+    .botonEarly {
+        margin-right: 90px;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    .botonEarly ul li a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        color:rgb(199, 198, 198);
+        
+    }
+    
+    .logoAtlas{
+        width: auto;
+        margin-left: 90px;
+        margin-top: 10px;
+        height: 60px;
+    }
+    
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        color: white;
+    }
+    
+    .titulo{
+        font-family: Arial, Helvetica, sans-serif;
+        height: 200px;
+        width: 480px;
+        margin-left:130px ;
+        color: rgb(199, 198, 198);
+        margin-top: 10px;
+    }
+    
+    .titulo p{
+        font-size: 18px;
+    }
+    
+    .botonGet{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        height: 40px;
+        width: 120px;
+        border-radius: 30px;
+        font-size: 16px;
+        color: #192440;
+        background-color: #00FFAD;
+        transition: transform 0.3s ease;
+        margin-top: 10px;
+    }
+    
+    
+    h2{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        color: rgb(51, 51, 51);
+    }
+    
+    
+    .tableroSegundarios{
+        width: 250px;
+        color: rgb(51, 51, 51);
+        font-family: Arial, Helvetica, sans-serif;
+        align-content: center;
+        text-align: center;
+    }
+    .tableroSegundarios img{
+        width: 130px;
+    }
+
+    .segundarioHermano h3{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .tableroPrimo{
+        width: 380px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 100px;
+        margin-left: 30px;
+    
+    }
+    
+    .tableroPrimo p{
+       margin-left: 10px;
+       font-size: 20px;
+    }
+    
+    .tableroImg{
+        margin-right: 20px;
+    }
+    .tableroImg img{
+        height: 200px;
+        width: auto;
+    }
+    
+    .botonLearn{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        height: 40px;
+        width: 120px;
+        border-radius: 30px;
+        font-size: 16px;
+        color:white;
+        background-color: #192440;
+        transition: transform 0.3s ease;
+    }
+
+    .contenedorTerciario{
+        display: flex;
+        justify-content: space-evenly;
+        color: rgb(51, 51, 51);
+        background-color: #00ffad;
+        margin-bottom: 80px;
+        height: 400px;
+    }
+    
+    .tituloPrecio{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        color: rgb(51, 51, 51);
+    }
+    
+    .tableroImg2{
+        margin-top: 110px;
+    }
+    
+    .tableroImg2 img{
+        height: 200px;
+        width: auto;
+        padding-left: 120px;
+    }
+    
+    .tableroSafe{
+        margin-top: 70px;
+        width: 380px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 100px;
+        margin-left: 40px;
+    }
+    .tableroSafe p{
+        font-size: 20px;
+    }
+    .tableroSafe h3{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+    
+    .ContenedorPrecios{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+    
+    .tableroPrecios{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 270px;
+        color: rgb(51, 51, 51);
+    }
+    
+    
+    .precios h3{
+        font-size: 60px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+    
+    
+    .tableroPrecios2{
+        background-color: #1d294b;
+        text-align: center;
+        width: 270px;
+        height: 420px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 4px;
+    }
+    .tableroPrecios2 p{
+        font-size: 18px;
+    }
+    .tableroPrecios{
+        font-size: 18px;
+    }
+    .tableroPrecios3{
+        font-size: 18px;
+    }
+    .tableroPrecios3{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 270px;
+        color: rgb(51, 51, 51);
+    }
+    
+    .tituloStartup {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .tituloPremium{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .tituloProfessional{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .botonGet1{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        height: 40px;
+        width: 100px;
+        border-radius: 30px;
+        font-size: 18px;
+        color: #192440;
+        background-color: #00FFAD;
+        transition: transform 0.3s ease;
+    
+    }
+    
+    .botonPrecio{
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #192440;
+        border-style:groove;
+        height: 40px;
+        width: 100px;
+        border-radius: 28px;
+        font-size: 18px;
+        color:#192440;
+        transition: transform 0.3s ease;
+    }
+    
+    
+    .bannerPublicidad div img{
+        width: auto;
+        height: 40px;
+    }
+    .bannerPublicidad div{
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .contenedorCuatro{
+        display: flex;
+        justify-content: space-around;
+        background-image: url(/assets/contact-bk.jpg);
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    .contact{
+        width: 300px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .contact p{
+        font-size: 20px;
+    }
+
+    .contact h2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-size: 45px;
+    }
+    
+    .enviarDatos{
+        width: 350px;
+        color: #00FFAD;
+    
+    }
+    
+    
+    .datosPadre{
+        display: flex;
+        justify-content: space-evenly;
+        color: #00FFAD;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 70px;
+        gap: 15px;
+        
+        
+    }
+    .datosPadre p{
+        font-size: 20px;
+        margin-left: 5px;
+        
+    }
+    
+    .datosPadre input{
+        background: transparent;
+        border-radius: 4px;
+        border:1px solid #00FFAD;
+        height: 35px;
+        width: 162.5px;
+        color: white;
+        margin-left: 5px;
+        
+    }
+    
+    .inputMessage p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left:   5px ;
+        font-size: 20px;
+    }
+    
+    .inputMessage textarea{
+        background: transparent;
+        border-radius: 4px;
+        border:1px solid #00FFAD;
+        height: 80px;
+        width: 350px;
+        margin-left: 5px;
+        color: white;
+    }
+    
+    .botonSubmit{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        height: 30px;
+        width: 355px;
+        border-radius: 27px;
+        font-size: 20px;
+        color: #192440;
+        background-color: #00FFAD;
+        transition: transform 0.3s ease;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    
+    
+    .footer p{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    
+    .iconos{
+        display: flex;
+        margin-right: 55px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .iconos img{
+        height: 40px;
+        width: auto;
+        margin-left: 5px;
+        
+    }
+    
+    .marcaFooter{
+        margin-top: 20px;
+        margin-left: 45px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+@media screen and (max-width:768px){
+    body{
+        width: 768px;
+    }
+    .portadaAtlas{
+        background-image: url(/assets/banner-bk.jpg);
+        height: 460px;
+        width: 768px;
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        flex-direction: column;
+    }
+        
+    .botonEarly {
+        margin-right: 60px;
+        margin-top: 10px;
+        color: white;
+    }
+        
+        
+    .botonEarly ul li a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        text-decoration: none;
+        color:rgb(199, 198, 198);
+        
+    }
+        
+    .logoAtlas{
+        width: auto;
+        margin-left: 60px;
+        margin-top: 10px;
+        height: 50px;
+    }
+        
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        color: white;
+    }
+        
+    .titulo{
+        font-family: Arial, Helvetica, sans-serif;
+        height: 200px;
+        width: 400px;
+        margin-left:60px ;
+        color: rgb(199, 198, 198);
+        margin-top: 10px;
+    }
+        
+    .titulo p{
+        font-size: 24px;
+    }
+        
+    .botonGet{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        height: 60px;
+        width: 140px;
+        border-radius: 30px;
+        font-size: 22px;
+        color: #192440;
+        background-color: #00FFAD;
+        transition: transform 0.3s ease;
+    }
+        
+        
+    .contenedorSegundario{
+        align-items: center;
+        margin-top: 40px;
+        color: rgb(51, 51, 51);
+       
+    }
+        
+    h2{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        color: rgb(51, 51, 51);
+    }
+        
+    .segundarioHijo{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        width: 100%;
+    }
+        
+    .tableroSegundarios{
+        width: 260px;
+        color: rgb(51, 51, 51);
+        font-family: Arial, Helvetica, sans-serif;
+        align-content: center;
+        text-align: center;
+       
+    }
+    .tableroSegundarios p{
+        font-size: 22px;
+    }
+    .tableroSegundarios img{
+        width: 120px;
+    }
+    .tableroSegundarios nav ul{
+        list-style-type: none;
+        text-align: center;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        align-items: center;
+        padding-right: 20px;
+    }
+        
+    .segundarioHermano{
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-evenly;
+        background:linear-gradient(162deg,white 50%,#00ffad 50%)
+        
+    }
+    .segundarioHermano h3{
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 3px;
+        margin-top: 5px;
+    }
+    .tableroPrimo{
+        width: 280px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+
+    }
+        
+    .tableroPrimo p{
+       margin-left: 7px;
+       font-size: 24px;
+    }
+        
+    .tableroImg{
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+    .tableroImg img{
+        height: 160px;
+        width: auto;
+    }
+        
+    .botonLearn{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        height: 40px;
+        width: 160px;
+        border-radius: 20px;
+        font-size: 22px;
+        color:white;
+        background-color: #192440;
+        transition: transform 0.3s ease;
+    }
+        
+    .contenedorTerciario{
+        display: flex;
+        justify-content: space-evenly;
+        color: rgb(51, 51, 51);
+        background-color: #00ffad;
+        margin-bottom: 40px;
+        height: 320px;
+        padding-bottom: 20px;
+    }
+        
+    .tituloPrecio{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        color: rgb(51, 51, 51);
+    }
+        
+    .tableroImg2{
+        margin-top: 40px;
+    }
+        
+    .tableroImg2 img{
+        height: 160px;
+        width: auto;
+        padding-left: 50px;
+    }
+        
+    .tableroSafe{
+        margin-top: 15px;
+        width: 280px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 30px;
+        padding-left: 20px;
+    }
+    .tableroSafe p{
+        font-size: 22px;
+    }
+    .tableroSafe h3{
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+        
+    .ContenedorPrecios{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+        
+    .tableroPrecios{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 240px;
+        color: rgb(51, 51, 51);
+    }
+        
+        
+    .precios h3{
+        font-size: 65px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+        
+    .precios p{
+        align-content: end;
+        margin: 0px;
+        margin-bottom: 8px;
+        font-size: 22px;
+    }
+        
+    .tableroPrecios2{
+        background-color: #1d294b;
+        text-align: center;
+        width: 240px;
+        height: 480px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 4px;
+    }
+    .tableroPrecios2 p{
+        font-size: 22px;
+    }
+    .tableroPrecios p{
+        font-size: 22px;
+        margin-bottom: 19px;
+    }
+    .tableroPrecios3 p{
+        font-size: 22px;
+        margin-bottom: 19px;
+    }
+    .tableroPrecios3{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 240px;
+        color: rgb(51, 51, 51);
+    }
+        
+    .tituloStartup {
+        margin-top: 50px;
+        font-size: 23px;
+    }
+        
+    .tituloPremium{
+        margin-top: 50px;
+        font-size: 23px;
+    }
+        
+    .tituloProfessional{
+        margin-top: 50px;
+        font-size: 23px;
+    }
+        
+    .botonGet1{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        height: 40px;
+        width: 140px;
+        border-radius: 30px;
+        font-size: 25px;
+        color: #192440;
+        background-color: #00FFAD;
+        transition: transform 0.3s ease;
+    }
+        
+        
+    .botonPrecio{
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #192440;
+        border-style:groove;
+        height: 40px;
+        width: 140px;
+        border-radius: 30px;
+        font-size: 25px;
+        color:#192440;
+        transition: transform 0.3s ease;
+        margin-bottom: 20px;
+    }
+        
+        
+    .bannerPublicidad div img{
+        width: auto;
+        height: 40px;
+    }
+    .bannerPublicidad div{
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+        
+    .contenedorCuatro{
+        display: flex;
+        justify-content: space-around;
+        background-image: url(/assets/contact-bk.jpg);
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    .contact{
+        width: 250px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        margin-left: 50px;
+    }
+    .contact p{
+        font-size: 22px;
+    }
+    .contact h2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-size: 30px;
+    }
+        
+    .enviarDatos{
+        width: 350px;
+        color: #00FFAD;
+
+    }
+        
+        
+    .datosPadre{
+        display: flex;
+        justify-content: space-evenly;
+        color: #00FFAD;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 55px;
+        
+        
+    }
+    .datosPadre p{
+        font-size: 25px;
+        
+    }
+        
+    .datosPadre input{
+        background: transparent;
+        border-radius: 4px;
+        border:1px solid #00FFAD;
+        height: 30px;
+        width: 134.5px;
+        color: white;
+
+    }
+        
+    .inputMessage p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left:   25px ;
+        font-size: 25px;
+    }
+        
+    .inputMessage textarea{
+        background: transparent;
+        border-radius: 4px;
+        border:1px solid #00FFAD;
+        height: 100px;
+        width: 302px;
+        margin-left: 25px;
+        color: white;
+    }
+        
+    .botonSubmit{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        height: 30px;
+        width: 302px;
+        border-radius: 27px;
+        font-size: 26px;
+        color: #192440;
+        background-color: #00FFAD;
+        transition: transform 0.3s ease;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+        
+        
+    .footer p{
+        font-size: 25px;
+        margin-left: 5px;
+    }
+        
+    .iconos{
+        display: flex;
+        margin-right: 55px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+        
+    .iconos img{
+        height: 50px;
+        width: auto;
+        margin-left: 5px;
+        
+    }
+        
+    .marcaFooter{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+        
+}
+
+@media screen and (max-width: 480px){
+    body{
+        width: 480px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .portadaAtlas{
+        background-image: url(/assets/banner-bk.jpg);
+        height: 720px;
+        width: 204%;
+        background-size:cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        flex-direction: column;
+    }
+
+        
+    .botonEarly {
+        margin-right: 60px;
+        margin-top: 10px;
+        color: white;
+    }
+        
+        
+    .botonEarly ul li a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration: none;
+        color:rgb(199, 198, 198);
+        
+    }
+        
+    .logoAtlas{
+        width: auto;
+        margin-top: 10px;
+        height: 50px;
+    }
+        
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 70px;
+        color: white;
+    }
+        
+    .titulo{
+        font-family: Arial, Helvetica, sans-serif;
+        height: 200px;
+        width: 700px;
+        color: rgb(199, 198, 198);
+        margin-top: 10px;
+    }
+        
+    .titulo p{
+        font-size: 40px;
+    }
+        
+    .botonGet{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        height: 60px;
+        width: 200px;
+        border-radius: 30px;
+        font-size: 33px;
+        color: #192440;
+        background-color: #00FFAD;
+        transition: transform 0.3s ease;
+    }
+        
+        
+    .contenedorSegundario{
+        align-items: center;
+        margin-top: 40px;
+        color: rgb(51, 51, 51);
+        width: 176%;
+       
+    }
+        
+    h2{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        color: rgb(51, 51, 51);
+       margin-left: 147px;
+    }
+        
+    .segundarioHijo{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 115%;
+    }
+        
+    .tableroSegundarios{
+        width: 800px;
+        color: rgb(51, 51, 51);
+        font-family: Arial, Helvetica, sans-serif;
+        align-content: center;
+        text-align: center;
+       
+    }
+    .tableroSegundarios p{
+        font-size: 33px;
+    }
+    .tableroSegundarios img{
+        width: 200px;
+    }
+    .tableroSegundarios nav ul{
+        list-style-type: none;
+        text-align: center;
+        font-size: 37px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        align-items: center;
+        padding-right: 20px;
+    }
+        
+    .segundarioHermano{
+        display: flex;
+        margin-top: 80px;
+        flex-direction: column;
+        width: 116%;
+        background:linear-gradient(162deg,white 50%,#00ffad 50%);
+        
+    }
+    .segundarioHermano h3{
+        font-size: 43px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .tableroPrimo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 94%;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+        
+    .tableroPrimo p{
+       margin-left: 7px;
+       font-size: 35px;
+       text-align: center;
+    }
+        
+    .tableroImg{
+        display: flex;
+        margin-top: 40px;
+       flex-direction: column;
+       align-items: center;
+    }
+    .tableroImg img{
+        height: 240px;
+        width: auto;
+    }
+        
+    .botonLearn{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        height: 60px;
+        width: 200px;
+        border-radius: 20px;
+        font-size: 30px;
+        color:white;
+        background-color: #192440;
+        transition: transform 0.3s ease;
+    }
+        
+    .contenedorTerciario{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: rgb(51, 51, 51);
+        background-color: #00ffad;
+        margin-bottom: 40px;
+        height: 700px;
+        width: 204%;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+        
+    .tituloPrecio{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 43px;
+        color: rgb(51, 51, 51);
+        margin-left: 249px;
+        width: 101%;
+    }
+        
+    .tableroImg2{
+        margin-top: 40px;
+    }
+        
+    .tableroImg2 img{
+        height: 220px;
+        width: auto;
+
+    }
+        
+    .tableroSafe{
+        margin-top: 15px;
+        width: 94%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 0%;
+    }
+    .tableroSafe p{
+        font-size: 35px;
+    }
+    .tableroSafe h3{
+        font-size: 43px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+        
+    .ContenedorPrecios{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-top: 50px;
+        width: 200%;
+    }
+
+    .ContenedorPrecios h2{
+        margin-left: 0px;
+        font-size: 43px;
+    }
+        
+    .tableroPrecios{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 102%;
+        color: rgb(51, 51, 51);
+        padding-bottom: 20px;
+    }
+        
+        
+    .precios h3{
+        font-size: 85px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+        
+    .precios p{
+        align-content: end;
+        margin: 0px;
+        margin-bottom: 8px;
+        font-size: 33px;
+    }
+        
+    .tableroPrecios2{
+        background-color: #1d294b;
+        text-align: center;
+        width: 102%;
+        height: 590px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 4px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .tableroPrecios2 p{
+        font-size: 30px;
+    }
+    .tableroPrecios p{
+        font-size: 30px;
+        margin-bottom: 19px;
+    }
+    .tableroPrecios3 p{
+        font-size: 30px;
+        margin-bottom: 19px;
+    }
+    .tableroPrecios3{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 102%;
+        color: rgb(51, 51, 51);
+    }
+        
+    .tituloStartup {
+        margin-top: 50px;
+        font-size: 38px;
+    }
+        
+    .tituloPremium{
+        margin-top: 50px;
+        font-size: 38px;
+    }
+        
+    .tituloProfessional{
+        margin-top: 50px;
+        font-size: 38px;
+    }
+        
+    .botonGet1{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        height: 60px;
+        width: 180px;
+        border-radius: 30px;
+        font-size: 33px;
+        color: #192440;
+        background-color: #00FFAD;
+        transition: transform 0.3s ease;
+    }
+        
+        
+    .botonPrecio{
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #192440;
+        border-style:groove;
+        height: 60px;
+        width: 180px;
+        border-radius: 30px;
+        font-size: 33px;
+        color:#192440;
+        transition: transform 0.3s ease;
+        margin-bottom: 20px;
+    }
+
+    .bannerPublicidad{
+        width: 204%;
+    }
+        
+        
+    .bannerPublicidad div img{
+        width: auto;
+        height: 60px;
+    }
+    .bannerPublicidad div{
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+        
+    .contenedorCuatro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(/assets/contact-bk.jpg);
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 204%;
+        
+    }
+    .contact{
+        width: 75%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    .contact p{
+        font-size: 33px;
+    }
+    .contact h2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 44px;
+        margin-left: 0px;
+    }
+        
+    .enviarDatos{
+        width: 100%;
+        margin-bottom: 70px;
+        color: #00FFAD;
+    }
+        
+        
+    .datosPadre{
+        display: flex;
+        justify-content: space-evenly;
+        color: #00FFAD;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 55px;
+        
+        
+    }
+    .datosPadre p{
+        font-size: 33px;
+        
+    }
+        
+    .datosPadre input{
+        background: transparent;
+        border-radius: 4px;
+        border:1px solid #00FFAD;
+        height: 50px;
+        width: 303.5px;
+        
+        color: white;
+    }
+        
+    .inputMessage p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left:   115px ;
+        font-size: 33px;
+    }
+        
+    .inputMessage textarea{
+        background: transparent;
+        border-radius: 4px;
+        border:1px solid #00FFAD;
+        height: 100px;
+        width: 77%;
+        margin-left: 111px;
+        color: white;
+    }
+        
+    .botonSubmit{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        height: 40px;
+        width: 78%;
+        border-radius: 27px;
+        font-size: 33px;
+        color: #192440;
+        background-color: #00FFAD;
+        transition: transform 0.3s ease;
+        margin-left: 111px;
+        margin-top: 5px;
+    }
+        
+        
+    .footer p{
+        font-size: 33px;
+    }
+    .footer{
+        width: 204%;
+    }
+        
+    .iconos{
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+        
+    .iconos img{
+        height: 70px;
+        width: auto;
+        margin-left: 5px;
+        
+    }
+        
+    .marcaFooter{
+        margin-top: 20px;
+        margin-bottom: 23px;
+    }
+}
