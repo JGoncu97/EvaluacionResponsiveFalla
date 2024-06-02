@@ -328,7 +328,7 @@ h2{
 .contenedorCuatro{
     display: flex;
     justify-content: space-around;
-    background-image: url(/assets/contact-bk.jpg);
+    background-image: url(../assets/contact-bk.jpg);
     
 }
 .contact{
@@ -441,7 +441,7 @@ h2{
     }
     
     .portadaAtlas{
-        background-image: url(/assets/banner-bk.jpg);
+        background-image: url(../assets/banner-bk.jpg);
         height: 400px;
         width: 100%;
         background-size: cover; 
@@ -707,7 +707,7 @@ h2{
     .contenedorCuatro{
         display: flex;
         justify-content: space-around;
-        background-image: url(/assets/contact-bk.jpg);
+        background-image: url(../assets/contact-bk.jpg);
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat;
@@ -830,7 +830,7 @@ h2{
         width: 768px;
     }
     .portadaAtlas{
-        background-image: url(/assets/banner-bk.jpg);
+        background-image: url(../assets/banner-bk.jpg);
         height: 460px;
         width: 768px;
         background-size: cover; 
@@ -1140,7 +1140,7 @@ h2{
     .contenedorCuatro{
         display: flex;
         justify-content: space-around;
-        background-image: url(/assets/contact-bk.jpg);
+        background-image: url(../assets/contact-bk.jpg);
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat;
@@ -1260,7 +1260,7 @@ h2{
         padding: 0px;
     }
     .portadaAtlas{
-        background-image: url(/assets/banner-bk.jpg);
+        background-image: url(../assets/banner-bk.jpg);
         height: 720px;
         width: 204%;
         background-size:cover; 
@@ -1597,7 +1597,7 @@ h2{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-image: url(/assets/contact-bk.jpg);
+        background-image: url(../assets/contact-bk.jpg);
         background-size: cover; 
         background-position: center;
         background-repeat: no-repeat;
