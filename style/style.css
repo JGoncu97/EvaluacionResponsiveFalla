@@ -1328,7 +1328,7 @@ h2{
         flex-direction: column;
         align-items: center;
         width: 204%;
-     
+        background-size: cover;
         background-repeat: no-repeat;
     }
     .contact{
